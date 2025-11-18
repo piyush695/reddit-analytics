@@ -4,10 +4,10 @@ import streamlit as st
 import pandas as pd
 import requests
 import plotly.express as px
-# import os
-# API_URL = os.getenv("API_URL")
+import os
+API_URL = os.getenv("API_URL")
 
-API_URL = "http://127.0.0.1:8000"
+# API_URL = "http://127.0.0.1:8000"
 
 st.set_page_config(
     page_title="Prop Firm Reddit Marketing Analytics",
